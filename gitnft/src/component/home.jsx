@@ -13,7 +13,7 @@ export default function Home() {
     setTotalContributions(null);
 
     if (!username) {
-      setError('Please enter a GitHub username'); //Isha
+      setError('Please enter a GitHub username'); 
       return;
     }
 
